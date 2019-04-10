@@ -1,7 +1,6 @@
-var tableData = require("../data/enemies")
+var tableData = require("../data/enemies.js")
 
 module.exports = function(app) {
-
 app.get("/api/home", function(req,res){
  res.json(tableData);
 });
