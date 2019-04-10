@@ -22,7 +22,7 @@
     <hr>
 
     <h3><strong>About You</strong></h3>
-    <h4>Fightame (Required)</h4>
+    <h4>Fighters name (Required)</h4>
     <input type="text" id="name" class="form-control" required="">
 
     <h4>Link to Photo Image (Required)</h4>
@@ -237,8 +237,7 @@
     <hr>
     <footer class="footer">
       <div class="container">
-        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/afhaque/friendfinder">GitHub
-            Repo</a></p>
+        <p><a href="../data/enemies.js">API enemies List</a>
       </div>
     </footer>
 
@@ -330,7 +329,7 @@
         };
 
         // AJAX post the data to the friends API.
-        $.post("/api/friends", userData, function (data) {
+        $.post("/data/enemies.js", userData, function (data) {
 
           // Grab the result from the AJAX post so that the best match's name and photo are displayed.
           $("#match-name").text(data.name);
