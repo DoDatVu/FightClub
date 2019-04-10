@@ -18,17 +18,18 @@ module.exports = function (app) {
     res.send(userData)
   })
   
-var sum = b.reduce((a, b) => a + b, 0);
-console.log("User score" + sum);
-console.log("Best match" + bestMatch.difference)
+// var sum = b.reduce((a, b) => a + b, 0);
+// console.log("User score" + sum);
+// console.log("Best match" + bestMatch.difference)
 
-for(var i = 0; i < friends.length; i++){
-  console.log(enemies[i].name);
-  differenceTotal = 0;
-  console.log("total Diff " + differenceTotal);
-  console.log("best match friend diff" + bestMatch.)
+// for(var i = 0; i < friends.length; i++){
+//   console.log(enemies[i].name);
+//   differenceTotal = 0;
+//   console.log("total Diff " + differenceTotal);
+  
+// }
+
+
+// }
+
 }
-
-
-}
-

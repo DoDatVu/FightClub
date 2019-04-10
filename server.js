@@ -10,9 +10,9 @@ require("./routing/apiRoutes")(app);
 require("./routing/htmlRoutes")(app);
 
 app.use(bodyParser.json());
-app.use(bodyParser.urlendcoded({ extended:true}));
+app.use(bodyParser.urlencoded({extended:true}));
 app.use(bodyParser.text());
-app.use(bodyParser.json ({ type:"application/vnd.api+json "}));
+app.use(bodyParser.json({ type:"application/vnd.api+json "}));
 
 
 app.listen(PORT, function() {
